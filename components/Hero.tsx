@@ -52,7 +52,7 @@ export function Hero() {
           Create A Campaign
         </a>
 
-        <a href="https://your-link-here.com" rel="noopener noreferrer" >
+        <a href="https://www.youtube.com/watch?v=5ajYtuBlgog" rel="noopener noreferrer" >
           <button className="flex items-center w-auto h-auto rounded-full bg-transparent text-white border border-white text-lg p-3 pr-5 pl-5">
             Watch Demo Video
             <Image

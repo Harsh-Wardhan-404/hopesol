@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
   const linkColorClass = isHomePage ? 'text-white' : isCreateCampaignPage ? 'text-black' : 'text-black';
 
   // Conditionally set the logo based on whether we are on the home page
-  const logoToUse = isHomePage ? logoW : logo;
+  const logoToUse = logoW;
 
   // Conditionally set navbar background color
   const navbarBackgroundClass = isHomePage ? 'bg-transparent' : 'bg-blue-50';
