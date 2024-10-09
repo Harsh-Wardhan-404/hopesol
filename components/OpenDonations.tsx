@@ -84,7 +84,7 @@ const AllCampaigns: React.FC = () => {
               <p className="text-gray-700 mt-2 h-7 line-clamp-1 overflow-hidden text-ellipsis">{campaign.description}</p>
               <div className="flex justify-between items-center mt-4">
                 <div className="text-gray-900 font-semibold text-sm">
-                  Raised: {campaign.currentAmount} <span className="text-gray-600">of {campaign.targetAmount}</span>
+                  Raised: {campaign.currentAmount} <span className="text-gray-600">of {campaign.targetAmount} SOL</span>
                 </div>
                 <Link href={`/campaigns/${campaign._id}/show`}>
                   <Button className="bg-[#13ADB7] text-white py-1 px-4 rounded-lg">Donate</Button>
